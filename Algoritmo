@@ -1,0 +1,7 @@
+Comenzamos con un "conjunto mejor que el conjunto" y un "conjunto peor que" que contienen cada uno loterías seleccionadas al azar
+del espacio de todas las loterías posibles (x1, x2), con xi sorteadas en [1,19]. Cuando un sujeto informa que (x, y) es estrictamente preferible a una lotería de referencia [(14;2) o (9;11)], sustituimos una de las loterías del conjunto mejor con (x+1, y+1). Cuando un sujeto informa de que la lotería de referencia es estrictamente preferida a (x, y), sustituimos una de las loterías del conjunto peor con (x-1, y-1). Cuando un sujeto declara su indiferencia entre una lotería de referencia y (x, y), sustituimos una de las loterías en el conjunto mejor y en el conjunto peor como se ha descrito anteriormente. Cuando un sujeto informa de que está incompleto, no cambiamos los conjuntos mejor y peor.
+Si un sujeto se paga a partir de este procedimiento, seleccionamos aleatoriamente para pagarle del conjunto mejor o peor con igual probabilidad. Si seleccionamos aleatoriamente el conjunto peor, entonces el sujeto recibiría la lotería de referencia como pago (ya que prefería la lotería de referencia a cualquier lotería del conjunto peor que). Si seleccionamos al azar el conjunto mejor que, entonces seleccionaríamos al azar una de las
+loterías del conjunto mejor, y el sujeto recibirá esta lotería como pago.
+
+(Fuente: Nielsen and Rigotti, mimeo, 2022)
+
